@@ -1,5 +1,7 @@
+FILEPATH = 'files/todos.txt'
+
 # Function to read todos from a file
-def get_todos(filepath='files/todos.txt'):
+def get_todos(filepath = FILEPATH):
     """
        Reads and returns a list of todo items from the specified file.
 
@@ -16,7 +18,7 @@ def get_todos(filepath='files/todos.txt'):
 
 
 # Function to write todos to a file
-def write_todos(todos_arg, filepath='files/todos.txt'):
+def write_todos(todos_arg, filepath = FILEPATH):
     """
         Writes a list of todo items to the specified file.
 
