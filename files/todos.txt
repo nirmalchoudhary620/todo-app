@@ -5,3 +5,5 @@ Clean the bag
 Fix the drawer
 Make a Pizza.
 Make soup.
+Hello
+Go to Office
