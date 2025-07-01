@@ -1,9 +1,16 @@
-Add a member
+Add a cook
 Prepare
-Cook
+Cook the food
 Clean the bag
 Fix the drawer
 Make a Pizza.
 Make soup.
 Hello
 Go to Office
+Add a cook
+Add a cook
+Add a cook
+Add a cook
+Add a cook
+Go for a walk
+Go for a walk
