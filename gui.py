@@ -9,14 +9,14 @@ sg.theme("Black")  # Set window appearance
 clock = sg.Text("", key='clock')  # Digital clock display
 label = sg.Text("Type in a to-do")  # Label for input field
 input_box = sg.InputText(tooltip="Enter todo", key='todo')  # Text input for new/edit todo
-add_button = sg.Button("Add")  # Button to add a new todo
+add_button = sg.Button(image_size=(80,40), image_source="add.png", mouseover_colors="LightBlue2", tooltip="Add todo", key="Add")  # Button to add a new todo
 
 # List box to show current todos with live selection
 list_box = sg.Listbox(values=functions.get_todos(), key='todos',
                       enable_events=True, size=(45, 10))
 
 edit_button = sg.Button("Edit")  # Button to edit selected todo
-complete_button = sg.Button("Complete")  # Button to remove selected todo
+complete_button = sg.Button(image_size=(80,50), image_source="complete.png", mouseover_colors="LightBlue2", tooltip="Complete todo", key="Complete")  # Button to remove selected todo
 exit_button = sg.Button("Exit")  # Button to exit the application
 
 # ----- Define Layout and Create Window -----
