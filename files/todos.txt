@@ -1,10 +1,7 @@
-Prepare
-Clean the bag
+Prepare the food.
+Clean the bag.
 Fix the drawer
 Make a Pizza.
 Make soup.
-Hello
-Go to Office
+Go to Office.
 Add a cook
-Go for a walk
-Go for a walk
