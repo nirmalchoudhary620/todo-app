@@ -1,4 +1,4 @@
-Prepare the food.
+Prepare the dish.
 Clean the bag.
 Fix the drawer
 Make a Pizza.
@@ -6,3 +6,5 @@ Make soup.
 Go to Office.
 Add a cook
 Bug mango.
+Prepare
+Pizza
