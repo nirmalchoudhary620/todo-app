@@ -1,4 +1,4 @@
-FILEPATH = 'files/todos.txt'
+FILEPATH = 'todos.txt'
 
 # Function to read todos from a file
 def get_todos(filepath = FILEPATH):

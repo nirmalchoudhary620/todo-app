@@ -1,6 +1,11 @@
 import time
 import functions  # Custom module for reading/writing todos
 import FreeSimpleGUI as sg  # GUI framework
+import os
+
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass
 
 # ----- Set GUI Theme -----
 sg.theme("Black")  # Set window appearance
